@@ -1,0 +1,22 @@
+Planta Twittera Rev2  Revised: Sunday, July 08, 2018
+          Revision: 2
+
+MakersUPV
+
+
+
+
+
+Bill Of Materials           July 8,2018      20:56:16	Page1
+
+Item	Quantity	Reference	Part
+______________________________________________
+
+1	1	BT1	2xAA
+2	1	C1	10nF
+3	1	R1	500k
+4	1	R2	5k
+5	1	S1	SW PUSHBUTTON
+6	1	U1	wemos_d1_mini
+7	1	U2	BHT1750
+8	1	U3	dht11

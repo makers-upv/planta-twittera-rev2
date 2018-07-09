@@ -1,0 +1,43 @@
+
+
+   ---- Transcoding 'D:\Users\jaime\Documents\GitHub\planta-twittera-rev2\electronics\gerbers\BMK.art' ----   Mon Jul 09 12:21:21 2018
+
+D10   --> D100
+D11   --> D101
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\Users\jaime\Documents\GitHub\planta-twittera-rev2\electronics\gerbers\BSK.art' ----   Mon Jul 09 12:21:21 2018
+
+D10   --> D102
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\Users\jaime\Documents\GitHub\planta-twittera-rev2\electronics\gerbers\OUTLINE.art' ----   Mon Jul 09 12:21:21 2018
+
+D10   --> D103
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\Users\jaime\Documents\GitHub\planta-twittera-rev2\electronics\gerbers\TMK.art' ----   Mon Jul 09 12:21:21 2018
+
+D12   --> D104
+D11   --> D105
+D10   --> D106
+D13   --> D107
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\Users\jaime\Documents\GitHub\planta-twittera-rev2\electronics\gerbers\TSK.art' ----   Mon Jul 09 12:21:21 2018
+
+D10   --> D108
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\Users\jaime\Documents\GitHub\planta-twittera-rev2\electronics\gerbers\BOTTOM.art' ----   Mon Jul 09 12:21:21 2018
+
+D12   --> D109
+D13   --> D110
+D14   --> D111
+D15   --> D112
+-----------------------------------------------------------------

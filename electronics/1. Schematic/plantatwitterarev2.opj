@@ -1,0 +1,125 @@
+(ExpressProject ""
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File ".\esp8266.olb"
+        (Type "Schematic Library"))
+      (File ".\sensor.olb"
+        (Type "Schematic Library"))
+      (File
+         "C:\Cadence\SPB_17.2\tools\capture\library\oldlibs\TITLE_BLOCKS.OLB"
+        (Type "Schematic Library"))
+      (File
+         "c:\users\jaime\google drive\00. tfg - lora\6. arduino shield\1. schematic\arduinolorasensorshield.olb"
+        (Type "Schematic Library")))
+    (File ".\plantatwitterarev2.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (NoModify)
+    (Board_sim_option "VHDL_flow")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "1")
+    (ANNOTATE_Action "0")
+    (Annotate_Page_Order "0")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "FALSE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}{POWER_GROUP}")
+    (ANNOTATE_IncludeNonPrimitive "FALSE")
+    (ANNOTATE_PreserveDesignator "FALSE")
+    (ANNOTATE_PreserveUserEdits "FALSE")
+    (ANNOTATE_Refdes_Control_Required "FALSE")
+    (Update_Instace_for_External_Design "FALSE")
+    (Annotate_type "Default")
+    (width_pages "100")
+    (width_start "80")
+    (width_End "80")
+    (Netlist_TAB "0")
+    (BOM_Scope "0")
+    (BOM_Mode "0")
+    (BOM_Report_File
+       "D:\USERS\JAIME\DOCUMENTS\GITHUB\PLANTA-TWITTERA-REV2\ELECTRONICS\SCHEMATIC\PLANTATWITTERAREV2.BOM")
+    (BOM_Merge_Include "FALSE")
+    (BOM_Property_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_Header "Item\tQuantity\tReference\tPart")
+    (BOM_Include_File
+       "D:\USERS\JAIME\DOCUMENTS\GITHUB\PLANTA-TWITTERA-REV2\ELECTRONICS\SCHEMATIC\PLANTATWITTERAREV2.INC")
+    (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_One_Part_Per_Line "FALSE")
+    (Open_BOM_in_Excel "FALSE")
+    (BOM_View_Output "TRUE"))
+  (Folder "Outputs"
+    (File ".\allegro\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\allegro\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\allegro\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat"))
+    (File ".\plantatwitterarev2.bom"
+      (Type "Report")))
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (SB
+      (FullPartName "SB.Normal")
+      (LibraryName
+         "C:\USERS\JAIME\GOOGLE DRIVE\00. TFG - LORA\6. ARDUINO SHIELD\1. SCHEMATIC\ARDUINOLORASENSORSHIELD.OLB")
+      (DeviceIndex "0"))
+    ("CAP NP"
+      (FullPartName "CAP NP.Normal")
+      (LibraryName
+         "D:\USERS\JAIME\DOCUMENTS\GITHUB\PLANTA-TWITTERA-REV2\ELECTRONICS\SCHEMATIC\ESP8266.OLB")
+      (DeviceIndex "0"))
+    (BATTERY
+      (FullPartName "BATTERY.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\OLDLIBS\DEVICE.OLB")
+      (DeviceIndex "0"))
+    (CON2
+      (FullPartName "CON2.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\OLDLIBS\DEVICE.OLB")
+      (DeviceIndex "0"))
+    ("SW PUSHBUTTON"
+      (FullPartName "SW PUSHBUTTON.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\OLDLIBS\DEVICE.OLB")
+      (DeviceIndex "0"))
+    (BHT1750
+      (FullPartName "BHT1750.Normal")
+      (LibraryName
+         "D:\USERS\JAIME\DOCUMENTS\GITHUB\PLANTA-TWITTERA-REV2\ELECTRONICS\SCHEMATIC\SENSOR.OLB")
+      (DeviceIndex "0"))
+    (dht11
+      (FullPartName "dht11.Normal")
+      (LibraryName
+         "D:\USERS\JAIME\DOCUMENTS\GITHUB\PLANTA-TWITTERA-REV2\ELECTRONICS\SCHEMATIC\SENSOR.OLB")
+      (DeviceIndex "0"))
+    (wemos_d1_mini
+      (FullPartName "wemos_d1_mini.Normal")
+      (LibraryName
+         "D:\USERS\JAIME\DOCUMENTS\GITHUB\PLANTA-TWITTERA-REV2\ELECTRONICS\SCHEMATIC\ESP8266.OLB")
+      (DeviceIndex "0")))
+  (MPSSessionName "jaime")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library"
+         "C:\Cadence\SPB_17.2\tools\capture\library\oldlibs\TITLE_BLOCKS.OLB")
+      (Path "Design Resources" "Library"
+         "c:\users\jaime\google drive\00. tfg - lora\6. arduino shield\1. schematic\arduinolorasensorshield.olb")
+      (Path "Outputs")
+      (Select "Design Resources" ".\plantatwitterarev2.dsn"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 332"))
+      (Tab 0)))
+  (LastUsedLibraryBrowseDirectory
+     "C:\Cadence\SPB_17.2\tools\capture\library\oldlibs")
+  (ISPCBBASICLICENSE "false"))
