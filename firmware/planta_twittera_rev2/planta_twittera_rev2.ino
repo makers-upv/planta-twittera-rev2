@@ -207,15 +207,23 @@ void setup() {
   // Create an ESP8266 WiFiClient class to connect to the MQTT server.
   WiFiClient client;
 
-  // Setup the MQTT client class by passing in the WiFi client and MQTT server and login details.
-  Adafruit_MQTT_Client mqtt(&client, AIO_SERVER, AIO_SERVERPORT, aio_username, aio_key);
+  String str_aio_username = String(AIO_USERNAME);
+  String str_aio_key = String(AIO_KEY);
 
-  // Setup feeds for temperature & humidity
-  const char* temperature_feed = strcat(aio_username, "/feeds/temperature");
-  Adafruit_MQTT_Publish temperature = Adafruit_MQTT_Publish(&mqtt, temperature_feed);
-  Adafruit_MQTT_Publish humidity = Adafruit_MQTT_Publish(&mqtt, strcat(aio_username, "/feeds/humidity"));
-  Adafruit_MQTT_Publish soil_humidity = Adafruit_MQTT_Publish(&mqtt, strcat(aio_username, "/feeds/soil_humidity"));
-  Adafruit_MQTT_Publish luminosity = Adafruit_MQTT_Publish(&mqtt, strcat(aio_username, "/feeds/luminosity"));
+  // Setup the MQTT client class by passing in the WiFi client and MQTT server and login details.
+  Serial.println("ParametersClient: " + String(aio_username) + " " + String(aio_key));
+  Adafruit_MQTT_Client mqtt(&client, AIO_SERVER, AIO_SERVERPORT, str_aio_username.c_str(), str_aio_key.c_str());
+
+  // Parameters feed configuration
+  String str_temperature = str_aio_username + "/feeds/temperature";
+  String str_humidity = str_aio_username + "/feeds/humidity";
+  String str_soil_humidity = str_aio_username + "/feeds/soil_humidity";
+  String str_luminosity = str_aio_username + "/feeds/luminosity";
+
+  Adafruit_MQTT_Publish temperature = Adafruit_MQTT_Publish(&mqtt, str_temperature.c_str());
+  Adafruit_MQTT_Publish humidity = Adafruit_MQTT_Publish(&mqtt, str_humidity.c_str());
+  Adafruit_MQTT_Publish soil_humidity = Adafruit_MQTT_Publish(&mqtt, str_soil_humidity.c_str());
+  Adafruit_MQTT_Publish luminosity = Adafruit_MQTT_Publish(&mqtt, str_luminosity.c_str());
 
   // connect to adafruit io
 
