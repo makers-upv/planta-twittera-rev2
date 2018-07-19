@@ -37,7 +37,7 @@
 #include "Adafruit_MQTT_Client.h"
 #include "DHT.h"
 #include <Wire.h>
-//#include <BH1750.h>
+#include <BH1750.h>
 
 //for LED status
 #include <Ticker.h>
@@ -73,7 +73,7 @@ void configModeCallback (WiFiManager *myWiFiManager) {
 DHT dht(DHTPIN, DHTTYPE, 15);
 
 //Lux sensor
-//BH1750 lightMeter;
+BH1750 lightMeter;
 
 
 
@@ -88,7 +88,10 @@ void setup() {
 
   // Init sensor
   dht.begin();
-  //lightMeter.begin(BH1750::ONE_TIME_HIGH_RES_MODE);
+
+  //Lux sensor
+  Wire.begin();
+  lightMeter.begin(BH1750::ONE_TIME_HIGH_RES_MODE);
 
   //set led pin as output
   pinMode(BUILTIN_LED, OUTPUT);
@@ -267,7 +270,7 @@ void setup() {
   int soil_humidity_data = (int)readSoilHumidity();
 
   // Lux sensor
-  uint16_t luminosity_data = 0;//lightMeter.readLightLevel();
+  uint16_t luminosity_data = lightMeter.readLightLevel();
 
   // Publish data
   if (! temperature.publish(temperature_data))
