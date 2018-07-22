@@ -1,5 +1,4 @@
 # Actualizar parche firmware Planta Twittera
-___
 
 Para actualizar el firmware y aplicarle nuevos parches a la Planta Twittera se ha desarrollado un pequeño script de ventana de comandos. Para utilizarlo seguir las siguientes instrucciones
 
