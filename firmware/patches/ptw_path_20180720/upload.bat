@@ -1,5 +1,10 @@
-TITLE Planta Twittera updater tool
 @echo off
+TITLE Planta Twittera Firmware Updater Tool
+
+echo ****************************************************
+echo ******Planta Twittera Firmware Updater Tool*********
+echo ****************by Jaime Laborda********************
+echo ****************************************************
 
 set /p Serial=Enter serial port: 
 
